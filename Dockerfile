@@ -36,7 +36,3 @@ RUN curl -sLH "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=acc
 # Set environment
 ENV JAVA_HOME /opt/jdk
 ENV PATH ${PATH}:${JAVA_HOME}/bin
-
-#RUN \
-#  curl -sL https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.3.7.tar.gz | \
-#  gunzip | tar -x -C / -f - 
